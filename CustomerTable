@@ -1,0 +1,40 @@
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `bankdb`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `customers`
+--
+
+CREATE TABLE IF NOT EXISTS `customers` (
+  `cno` int(11) NOT NULL,
+  `cname` text NOT NULL,
+  `accno` int(6) NOT NULL,
+  `pinno` int(4) NOT NULL,
+  `Country` varchar(20) NOT NULL,
+  `City` varchar(20) NOT NULL,
+  `phoneno` varchar(10) NOT NULL,
+  `cmail` varchar(25) NOT NULL,
+  `cbalance` int(11) NOT NULL,
+  UNIQUE KEY `accno` (`accno`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `customers`
+--
+
+INSERT INTO `customers` (`cno`, `cname`, `accno`, `pinno`, `Country`, `City`, `phoneno`, `cmail`, `cbalance`) VALUES
+(1, 'Rajesh Bajaj', 122378, 9876, 'India', 'Vadodara', '8923177832', 'rajeshbajaj@gmail.com', 362163),
+(2, 'Manohar Shah', 123745, 1726, 'Australia', 'Brisbane', '9827381074', 'manoharshah@gmail.com', 58520),
+(3, 'Henil Bhavsar', 273568, 1920, 'India', 'Vadodara', '9827388913', 'henilbhavsar00@gmail.com', 442301),
+(4, 'Akhilesh Patel', 367815, 1218, 'Singapore', 'Yishun', '9829383392', 'akhileshpatel@gmail.com', 246760),
+(5, 'Jhanvi Shah', 389461, 7718, 'Australia', 'Perth', '2837914271', 'jhanvishah@yahoo.com', 234200),
+(6, 'Rahul Shrivastav', 672812, 6753, 'Australia', 'Sydney', '7197266192', 'rahulshrivastav@gmail.com', 57020),
+(7, 'Rajeshwari Chauhan', 841297, 4871, 'Canada', 'Vancouver', '6592390018', 'rajeshwari@gmail.com', 208000),
+(8, 'Gaurang Mahajan', 872931, 6664, 'India', 'Kolkata', '8729843102', 'gaurangmahajan@gmail.com', 120030),
+(9, 'Adit Rajput', 898313, 9090, 'Canada', 'Montreal', '6734710078', 'aditrajput@gmail.com', 69000),
+(10, 'Kashish Jadhav', 987412, 4555, 'India', 'Mumbai', '7982109380', 'kashish238@gmail.com', 102100);
