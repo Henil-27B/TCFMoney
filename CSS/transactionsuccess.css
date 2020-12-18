@@ -1,0 +1,133 @@
+body{
+    background-image: url("pexels-karolina-grabowska-4968396.jpg");
+    background-size: cover;
+}
+
+#head{
+    width:100%;
+    position:static; 
+    padding:0pt; 
+    height:90pt; 
+    background-color:rgb(7, 60, 165); 
+    text-align: center;
+    box-shadow: 5px 8px 7px grey;
+    border: 1pt black solid;
+}
+
+#footer{
+    width:100%;
+    position:static;
+    margin-top: 150pt;
+    height: 40pt;
+    background-color:rgb(7, 60, 165); 
+    text-align: center;
+    box-shadow: 5px 5px 8px 7px grey;
+    border: 1pt black solid;
+}
+
+h1{
+    font-size: 23pt; 
+    color:ghostwhite; 
+    padding: 17pt;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h5{
+    float:left;
+    margin-left:20pt;
+    font-size: 11pt;
+    color: ghostwhite;
+}
+
+h6{
+    float:right;
+    margin-right: 20pt;
+    font-size: 11pt;
+    color: ghostwhite;
+}
+
+b{
+    font-size: 13pt;
+    font-weight: bolder;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#main{
+    background-color:   rgb(7, 60, 165);
+    margin-left: 337pt;
+    margin-top: 84pt;
+    width: 440pt;
+    height: auto;
+    text-align: center;
+    box-shadow: 5px 8px 7px grey;
+    border: 1pt black solid;
+}
+
+h4{
+    font-weight: bold;
+    padding:5pt;
+    color: lightyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    font-weight: 200;
+    font-size: 14pt;
+    color: lightyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr{
+    border-top: 1pt solid black;
+}
+
+#na{
+    font-size: 16pt;
+    font-weight: bolder;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3{
+    padding-bottom: 5pt;
+    font-weight: 200;
+    font-size: 12pt;
+    color: lightyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    color:black;
+    font-weight: 600;
+    font-size: 12pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button {
+    border-radius: 6px;
+    text-align: center;
+    padding: 9pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.account{
+    margin-top: -140pt;
+    margin-right: 20pt;
+    border-radius: 6px;
+    float:right;
+    width: 100pt;
+    text-align: center;
+    padding: 2pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.account:hover {
+    background-color: #555555;
+    color: white;
+}
